@@ -2,7 +2,6 @@
 
 const workshopper = require('workshopper')
     , path        = require('path')
-    , credits     = require('./credits')
 
 function fpath (f) {
   return path.join(__dirname, f)
@@ -11,10 +10,6 @@ function fpath (f) {
 workshopper({
       name        : 'learnyounode'
     , appDir      : __dirname
-    , languages   : ['en', 'es', 'fr', 'ja', 'zh-cn', 'zh-tw', 'pt-br', 'ru', 'vi', 'ko']
+    , languages   : ['en']
     , helpFile    : fpath('./i18n/help/{lang}.txt')
-    , menuItems   : [ {
-          name    : 'credits'
-        , handler : credits
-      } ]
   })

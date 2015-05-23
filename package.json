@@ -1,29 +1,11 @@
 {
-  "name": "learnyounode",
-  "version": "2.5.2",
-  "description": "Learn You The Node.js For Much Win! An intro to Node.js via a set of self-guided workshops.",
-  "author": "Rod Vagg <rod@vagg.org> (https://github.com/rvagg)",
-  "contributors": [
-    "Rod Vagg <r@va.gg> (https://github.com/rvagg)",
-    "Andrey Sidorov <sidorares@yandex.ru> (https://github.com/sidorares)",
-    "Julián Duque <julianduquej@gmail.com> (https://github.com/julianduque)",
-    "Lars-Magnus Skog <lars.magnus.skog@gmail.com> (https://github.com/ralphtheninja)",
-    "Tim Inman <tim.inman@gmail.com> (https://github.com/thehack)",
-    "Dan Flettre <fletd01@yahoo.com> (https://github.com/Flet)",
-    "Martin Heidegger <martin.heidegger@gmail.com> (https://github.com/martinheidegger)",
-    "Fred Chien <cfsghost@gmail.com> (https://github.com/cfsghost)",
-    "雨蒼(Billy) <billy3321@gmail.com> (https://github.com/billy3321)",
-    "Leigh Zhu <i@zhuli.me> (https://github.com/lisposter)",
-    "Toshiharu Harada <haradats@gmail.com> (https://github.com/haradats)",
-    "Lucas Fernandes da Costa <fernandesdacostalucas@gmail.com> (https://github.com/lucasfcosta)",
-    "Eric Douglas <eric.douglas.mail@gmail.com> (https://github.com/ericdouglas)",
-    "Alejandro Oviedo <alejandro.oviedo.g@gmail.com> (https://github.com/a0viedo)",
-    "Leonardo Nascimento <leo386386@gmail.com> (https://github.com/leonardo386)",
-    "Christophe Porteneuve <christophe@delicious-insights.com> (https://www.js-attitude.fr/node-js/)"
-  ],
+  "name": "edging",
+  "version": "0.1.0",
+  "description": "A workshop to learn Edge.js from Node.js",
+  "author": "Simone Busoli <simone.busoli@gmail.com> (https://github.com/simoneb)",
   "repository": {
     "type": "git",
-    "url": "https://github.com/rvagg/learnyounode.git"
+    "url": "https://github.com/simoneb/edging.git"
   },
   "license": "MIT",
   "dependencies": {
@@ -45,7 +27,7 @@
     "workshopper-wrappedexec": "~0.1.1"
   },
   "bin": {
-    "learnyounode": "./learnyounode.js"
+    "edging": "./edging.js"
   },
   "preferGlobal": true
 }
