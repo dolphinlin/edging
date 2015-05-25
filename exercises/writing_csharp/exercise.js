@@ -14,8 +14,8 @@ exercise = execute(exercise)
 exercise = comparestdout(exercise)
 
 exercise.addSetup(function(mode, callback) {
-  this.submissionArgs = [ 'async (input) => "hello " + input.ToString() + " world!"' ]
-  this.solutionArgs   = [ 'async (input) => "hello " + input.ToString() + " world!"' ]
+  this.submissionArgs = [ '9' ]
+  this.solutionArgs   = [ '9' ]
 
   process.nextTick(callback);
 });

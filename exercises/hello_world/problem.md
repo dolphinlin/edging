@@ -1,27 +1,24 @@
-Write a program that prints the text "HELLO WORLD" to the console (stdout).
+Write a program that uses `Edge.js` to execute the C# function passed in its string form as the first command line argument (`process.argv[2]`) to your program.
+
+You should pass the string 'EDGE' to the C# code and write its return value to the standard output.
 
 ----------------------------------------------------------------------
 ## HINTS
 
-To make a Node.js program, create a new file with a `.js` extension and start writing JavaScript! Execute your program by running it with the
-`node` command. e.g.:
-
-```sh
-$ node program.js
-```
-
-You can write to the console in the same way as in the browser:
+Edge.js is able to execute C# code written in its source form as a string:
 
 ```js
-console.log("text")
+// this C# code converts its input argument into a string
+// then returns it, concatenated with the string " world!"
+var func = edge.func('[provided to you in this exercise]');
+
+func('hello', function(err, result) {
+    // here result will be the return value of the C# code
+});
 ```
 
-When you are done, you must run:
+You should install Edge.js using `npm` and `require` it from within your program.
 
-```sh
-$ {appname} verify program.js
-```
-
-to proceed. Your program will be tested, a report will be generated, and the lesson will be marked 'completed' if you are successful.
+In this exercise the C# code you supply to the `edge.func` function will be provided to you and you can access it using `process.argv[2]`.
 
 ----------------------------------------------------------------------

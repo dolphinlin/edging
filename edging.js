@@ -8,7 +8,7 @@ function fpath (f) {
 }
 
 workshopper({
-      name        : 'learnyounode'
+      name        : 'edging'
     , appDir      : __dirname
     , languages   : ['en']
     , helpFile    : fpath('./i18n/help/{lang}.txt')
